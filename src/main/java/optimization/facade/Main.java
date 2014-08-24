@@ -33,7 +33,7 @@ public class Main {
 	public static void main(String[] args) {
 		final AbstractFactory af = new AbstractFactory();
 		
-		final BufferedImage sampleImage = af.loadSampleImage("images/apple.jpg");
+		final BufferedImage sampleImage = af.loadSampleImage("src/main/resources/images/apple.jpg");
 		
 		final boolean dump = false;
 		final int dumpInterval = 3;
